@@ -8,7 +8,7 @@ require Exporter;
 use vars qw($VERSION @ISA);
 @ISA = 'Acme::Colour';
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub default {
   return 'orange';
@@ -37,7 +37,6 @@ Acme::Orange - Like Acme::Colour but only for important colours
 
 =head1 SYNOPSIS
 
-  # light
   $c = Acme::Orange->new();
   $colour = $c->colour; # orange
   $c->add("orange");    # $c->colour still orange
@@ -45,7 +44,6 @@ Acme::Orange - Like Acme::Colour but only for important colours
 
   $c = Acme::Orange->new("pink");
   $colour = $c->colour; # orange.
-
 
 =head1 ABSTRACT
 
@@ -66,7 +64,7 @@ Can't do overloaded constants. Yet
 
 =head1 AUTHOR
 
-Nicholas Clark, E<lt>nick@talking.bollo.cx<gt>
+Nicholas Clark, E<lt>nick@talking.bollo.cxE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
