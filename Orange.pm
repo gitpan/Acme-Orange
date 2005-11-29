@@ -8,7 +8,7 @@ require Exporter;
 use vars qw($VERSION @ISA);
 @ISA = 'Acme::Colour';
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 sub default {
   return 'orange';
@@ -29,8 +29,10 @@ sub closest {
   return 'orange';
 }
 
-1;
+*_closest = \*closest;
+
 __END__
+
 =head1 NAME
 
 Acme::Orange - Like Acme::Colour but only for important colours
@@ -57,6 +59,8 @@ Methods are as Acme::Colour
 =head1 SEE ALSO
 
 Acme::Colour by Leon Brocard
+
+Acme::Tango by Peter Sergeant
 
 =head1 BUGS
 

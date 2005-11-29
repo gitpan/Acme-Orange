@@ -4,3 +4,4 @@ MANIFEST
 Orange.pm
 README
 t/orange.t
+META.yml                                 Module meta-data (added by MakeMaker)

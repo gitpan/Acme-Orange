@@ -6,3 +6,9 @@ Revision history for Perl extension Acme::Orange.
 
 0.02  Sat Jun  7 00:35:12 BST 2003
 	Pod bug spotted by Kake
+
+0.03  Tue Nov 29 09:54:34 GMT 2005
+	Update because Léon has renamed his undocumented private methods.
+	As you do :-)
+	Actually have a README.
+	Mention Acme:::Tango in the SEE ALSO
